@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  ngf_server:
+    container_name: ngf-server
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: ngf-server:1.0.2
